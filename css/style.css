@@ -1,0 +1,426 @@
+h1 {
+	font: 42px/150% 'Ovo', serif;
+}
+
+h2 {
+	font: 42px/150% 'Ovo', serif;
+}
+
+h3 {
+	font: 36px/150% 'Ovo', sans-serif;
+}
+
+h4 {
+	font-family: 'Muli', sans-serif;
+}
+
+p {
+	font: 20px/150% 'Muli', sans-serif;
+	font-weight: 300;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+    background-color: #fff;
+    border: 0px;
+}
+
+a.page-scroll {
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 1.5px;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Ovo', serif;
+	color: #8EC9D2;
+	font-weight: bold;
+}
+
+ul.nav li:hover, a:hover {
+	transform: rotate(-3deg);
+	color: #5B979D;
+	transition: .2s;
+}
+
+.navbar-default .navbar-nav .active a.details, .navbar-default .navbar-nav .active a.details:focus, .navbar-default .navbar-nav .active a.details:hover {
+	background: #f7f7f7;
+	color: #777;
+}
+
+.navbar-default .navbar-nav .active a.accomodations, .navbar-default .navbar-nav .active a.accomodations:focus, .navbar-default .navbar-nav .active a.accomodations:hover {
+	background: #e3f2f4;
+	color: #777;
+}
+
+.navbar-default .navbar-nav .active a.bridal, .navbar-default .navbar-nav .active a.bridal:focus, .navbar-default .navbar-nav .active a.bridal:hover {
+	background: #fff;
+	color: #777;
+}
+
+.navbar-default .navbar-nav .active a.registry, .navbar-default .navbar-nav .active a.registry:focus, .navbar-default .navbar-nav .active a.registry:hover {
+	background: #fff;
+	color: #777;
+}
+
+/* INTRO */
+
+.intro-section {
+	background: url('../img/theresa+christopher.jpg') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	max-height: 600px;
+	margin-top: 90px;
+}
+
+.intro-section img {
+	width:75%;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+/* WEDDING */
+
+.wedding-section {
+	margin-top: 50px;
+	background: #fff;
+}
+
+.wedding-section h1 {
+	color: #8EC9D2;
+}
+
+.wedding-section p {
+	font: 36px 'Muli', sans-serif;
+	color: #777;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.wedding-section .banner {
+	transform: rotate(-3deg);
+	margin-top: -50px;
+	z-index: 999999;
+}
+
+.wedding-section .banner h1 span {
+	padding:20px;
+	background: #8EC9D2;
+	color: #fff;
+}
+
+.wedding-section .banner p {
+	letter-spacing: 1.5px;
+	font-size: 100%;
+	margin-top: 10px;
+}
+
+.wedding-section .story {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.wedding-section .story h2 {
+	color: #dddddd;
+}
+
+.wedding-section .story img {
+	margin: 0 auto;
+	max-width: 360px;
+	margin-top:25px;
+}
+
+.wedding-section .story p.caption {
+	font-size: 85%;
+	color: #aaa;
+}
+
+/* DETAILS */
+
+.details-section {
+	background: #f7f7f7;
+	color: #777;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.details-section .row {
+	margin-bottom: 50px;
+}
+
+.details-section .banner {
+	transform: rotate(-3deg);
+}
+
+.details-section .banner h2 span{
+	padding:20px;
+	background: #8EC9D2;
+	color: #fff;
+}
+
+.details-section hr {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.details-section img {
+	margin: 0 auto;
+	max-width: 200px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: solid 5px #8EC9D2;
+	border-radius: 50%;
+}
+
+.details-section a {
+	color: #777;
+	text-decoration: none;
+	border-bottom: dashed 2px #777;
+	font-size: 85%;
+}
+
+/* ACCOMODATIONS */
+
+.accomodations-section {
+	background: #e3f2f4;
+	color: #777;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.accomodations-section .row {
+	margin-bottom: 50px;
+}
+
+.accomodations-section h2 {
+	color: #8EC9D2;
+}
+
+.accomodations-section .banner {
+	transform: rotate(-3deg);
+}
+
+.accomodations-section .banner h2 span {
+	padding:20px;
+	background: #8EC9D2;
+	color: #fff;
+}
+
+.accomodations-section img {
+	margin: 0 auto;
+	max-width: 250px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: solid 5px #8EC9D2;
+	border-radius: 50%;
+}
+
+.accomodations-section a {
+	color: #777;
+	text-decoration: none;
+	border-bottom: dashed 2px #777;
+}
+
+.accomodations-section a.hotel {
+	font-size: 85%;
+}
+
+.accomodations-section li {
+	font: 20px/200% 'Muli', sans-serif;
+	font-weight: 300;
+}
+
+.accomodations-section span.code {
+	font-weight: 700;
+	background: #81909f;
+	color: #fff;
+	padding: 5px;
+}
+
+/* BRIDAL PARTY */
+
+.bridal-section {
+	background: #fff;
+	color: #777;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.bridal-section .row {
+	margin-bottom: 50px;
+}
+
+.bridal-section .banner {
+	transform: rotate(-3deg);
+}
+
+.bridal-section .banner h2 span {
+	padding:20px;
+	background: #8EC9D2;
+	color: #fff;
+}
+
+.bridal-section hr {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bridal-section img {
+	margin: 0 auto;
+	max-width: 165px;
+}
+
+.bridal-section a {
+	color: #777;
+	text-decoration: none;
+	border-bottom: dashed 2px #777;
+}
+
+.bridal-section hr.flower {
+		display:none;
+	}
+
+/* REGISTRY */
+
+.registry-section {
+	background: #f7f7f7;
+	color: #777;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.registry-section .row {
+	margin-bottom: 50px;
+}
+
+.registry-section .banner {
+	transform: rotate(-3deg)
+}
+
+.registry-section .banner h2 span {
+	padding:20px; background: #8EC9D2; color: #fff;
+}
+
+.registry-section img {
+	margin: 0 auto;
+	height: 75px;
+	margin-top: 25px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+.registry-section a {
+	color: #777;
+	text-decoration: none;
+	border-bottom: dashed 2px #777;
+	font-size: 85%;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+footer a.to-top {
+	font-family: 'Ovo', serif;
+	color: #8EC9D2;
+	font-weight: bold;
+	font-size: 26px;
+    line-height: 42px;
+}
+
+footer a.to-top:hover{
+	text-decoration: none;
+}
+
+footer .row {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+footer i.fa {
+	font-size: 20px;
+	margin-right: 15px;
+	color: #777;
+}
+
+footer i.fa:hover {
+	transform: rotate(-10deg);
+	color: #5B979D;
+	transition: .2s;
+}
+
+#countdown {
+	font-family: 'Ovo';
+	color: #8EC9D2;
+}
+
+/* @MEDIA */
+
+@media (max-width: 992px) {
+	ul.navbar-right {
+		display: none;
+	}
+	.bridal-section .mason-jar {
+		display:none;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		overflow-x: hidden;
+	}
+	ul.nav li:hover, a:hover {
+		transform: rotate(0deg);
+	}
+	.navbar-default .navbar-nav .active a.details, .navbar-default .navbar-nav .active a.details:focus, .navbar-default .navbar-nav .active a.details:hover {
+		background: #fff;
+	}
+	.navbar-default .navbar-nav .active a.accomodations, .navbar-default .navbar-nav .active a.accomodations:focus, .navbar-default .navbar-nav .active a.accomodations:hover {
+		background: #fff;
+	}
+	.navbar-default .navbar-nav .active a.bridal, .navbar-default .navbar-nav .active a.bridal:focus, .navbar-default .navbar-nav .active a.bridal:hover {
+		background: #fff;
+	}
+	.navbar-default .navbar-nav .active a.registry, .navbar-default .navbar-nav .active a.registry:focus, .navbar-default .navbar-nav .active a.registry:hover {
+		background: #fff;
+	}
+	.intro-section {
+		margin-left: -130px;
+		margin-top: 50px;
+	}
+	.bridal-section hr.flower {
+		display:block;
+	}
+	.details-section .reception {
+		margin-top: 100px;
+	}
+	.registry-section .amazon {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 554px) {
+	.intro-section {
+		margin-left: -130px;
+		margin-top: 50px;
+	}
+	.wedding-section .banner h1 span {
+		font-size: 28px;
+	}
+	.wedding-section .banner p {
+		font-size: 10px;
+	}
+	.wedding-section .story {
+		margin-top: 50px;
+	}
+}
