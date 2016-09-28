@@ -370,6 +370,9 @@ footer i.fa:hover {
 	ul.navbar-right {
 		display: none;
 	}
+	.wedding-section .story img{
+		max-width:100%;
+	}
 	.bridal-section .mason-jar {
 		display:none;
 	}
