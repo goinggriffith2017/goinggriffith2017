@@ -411,8 +411,9 @@ footer i.fa:hover {
 
 @media (max-width: 554px) {
 	.intro-section {
-		margin-left: -130px;
+		margin-left: -25px;
 		margin-top: 50px;
+		max-height: 325px;
 	}
 	.wedding-section .banner h1 span {
 		font-size: 28px;
