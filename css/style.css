@@ -180,7 +180,7 @@ ul.nav li:hover, a:hover {
 .details-section a {
 	color: #777;
 	text-decoration: none;
-	border-bottom: dashed 2px #777;
+	border-bottom: dashed 1px #777;
 	font-size: 85%;
 }
 
@@ -223,7 +223,7 @@ ul.nav li:hover, a:hover {
 .accomodations-section a {
 	color: #777;
 	text-decoration: none;
-	border-bottom: dashed 2px #777;
+	border-bottom: dashed 1px #777;
 }
 
 .accomodations-section a.hotel {
@@ -280,7 +280,7 @@ ul.nav li:hover, a:hover {
 .bridal-section a {
 	color: #777;
 	text-decoration: none;
-	border-bottom: dashed 2px #777;
+	border-bottom: dashed 1px #777;
 }
 
 .bridal-section hr.flower {
@@ -319,7 +319,7 @@ ul.nav li:hover, a:hover {
 .registry-section a {
 	color: #777;
 	text-decoration: none;
-	border-bottom: dashed 2px #777;
+	border-bottom: dashed 1px #777;
 	font-size: 85%;
 }
 
